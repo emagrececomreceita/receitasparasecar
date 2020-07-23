@@ -60,16 +60,16 @@ input {
 input:checked ~ label .hamburguer {
   transform: rotate(45deg);
 }
-
+/* 
 input:checked ~ label .hamburguer:before {
   transform: rotate(90deg);
   top: 0;
-}
+} */
 
-input:checked ~ label .hamburguer:after {
+/* input:checked ~ label .hamburguer:after {
   transform: rotate(90deg);
   bottom: 0;
-}
+} */
 .menu {
     cursor: pointer;
     box-shadow: 0 0 0 0 white, 0 0 0 0 white;
@@ -86,12 +86,12 @@ input:checked ~ label .hamburguer:after {
   }
   
  
-  input:checked ~ ul {
+/*   input:checked ~ ul {
     opacity: 1;
-  }
+  } */
   
 
-  ul {
+/*   ul {
     position: absolute;
     top: 30%;
     left: 35%;
@@ -102,7 +102,7 @@ input:checked ~ label .hamburguer:after {
     transition: 0.25s 0.1s cubic-bezier(0, 1.07, 0, 1.02);
     z-index: 2;
     position: fixed;
-  }
+  } */
   
   .a1 {
    color: rgb(92, 173, 56);
