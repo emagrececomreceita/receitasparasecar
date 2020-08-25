@@ -316,7 +316,7 @@ color: white;
   color: black;
   text-align: center;
 }
-.efeito1{
+.efeito{
   border: none;
   color: #ffffff;
   padding: 20px;
@@ -329,24 +329,30 @@ color: white;
   cursor: pointer;
   transition: all 400ms ease;
 }
-.efeito-31{
-  background:  rgba(0,0,0,0) ;
+.efeito-3{
+  background:  rgb(251, 255, 9) ;
   color: black;
   width: 500px;
   height: 100px;
   box-shadow: inset 0 0 0 2px black;
   font-family:'Comfortaa', cursive ;
   font-size: 20px;
+  -webkit-box-shadow: -10px 12px 7px rgb(251, 255, 9);
+		-moz-box-shadow:    -10px 12px 7px rgb(251, 255, 9);
+		box-shadow:         -10px 12px 7px black;
 }
 
-.efeito-31:hover{
+.efeito-3:hover{
   background-color:black;
-  color:white;
-  box-shadow: inset 0 0 0 3px black;
+  color: rgb(251, 255, 9);
+  /* box-shadow: inset 0 0 0 3px rgb(92, 173, 56); */
   width: 500px;
   height: 100px;
   font-family:'Comfortaa', cursive ;
   font-size: 20px;
+  -webkit-box-shadow: -10px 12px 7px black;
+  -moz-box-shadow:    -10px 12px 7px black;
+  box-shadow:         -10px 12px 7px rgb(251, 255, 9);
   
 }
 .efeito2{
